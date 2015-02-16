@@ -1,0 +1,18 @@
+<table class="table">
+  <thead>
+  <th></th>
+  <th>Agency</th>
+  <th>Name</th>
+  <th>Mode</th>
+  </thead>
+  <tbody>
+  {{#routes}}
+  <tr>
+    <td><input type="checkbox" id="route-checkbox-{{id}}" data-agency-and-id="{{id}}" class="route-checkbox"></td>
+    <td>{{getAgencyId id}}</td>
+    <td><strong>{{shortName}}</strong> {{longName}}</td>
+    <td><span class="label label-default">{{mode}}</span></td>
+  </tr>
+  {{/routes}}
+  </tbody>
+</table>

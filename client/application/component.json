@@ -1,0 +1,23 @@
+{
+  "name": "application",
+  "dependencies": {
+    "jashkenas/underscore": "*",
+    "components/jquery": "1.11.1",
+    "components/handlebars.js": "*",
+    "components/bootstrap": "3.2.0",
+    "conveyal/transitive.js": "master"
+  },
+  "locals": [
+    "construct-data"
+  ],
+  "scripts": [
+    "index.js"
+  ],
+  "styles": [
+    "style.css"
+  ],
+  "templates": [
+    "route-table.html",
+    "selected-route-table.html"
+  ]
+}

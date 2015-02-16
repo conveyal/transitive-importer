@@ -1,0 +1,10 @@
+{
+  "name": "construct-data",
+  "dependencies": {
+    "jashkenas/underscore": "*",
+    "components/jquery": "1.11.1"
+  },
+  "scripts": [
+    "index.js"
+  ]
+}

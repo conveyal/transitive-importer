@@ -1,0 +1,18 @@
+<table class="table">
+  <thead>
+  <th>Agency</th>
+  <th>Name</th>
+  <th>Mode</th>
+  <th></th>
+  </thead>
+  <tbody>
+  {{#routes}}
+  <tr>
+    <td>{{getAgencyId id}}</td>
+    <td><strong>{{shortName}}</strong> {{longName}}</td>
+    <td><span class="label label-default">{{mode}}</span></td>
+    <td><span class="glyphicon glyphicon-remove remove-route-button" aria-hidden="true" data-agency-and-id="{{id}}"></span></td>
+  </tr>
+  {{/routes}}
+  </tbody>
+</table>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Transitive Importer</title>
+
+  <link rel="stylesheet" href="build/build.css">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="page-header">
+    <h1>Transitive GTFS Importer</h1>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6">
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Agencies</h3>
+        </div>
+        <div class="panel-body">
+          <div id="otp-endpoint"></div>
+          <button type="button" id="set-endpoint-button" class="btn btn-primary">Set OTP Endpoint</button>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">All Routes</h3>
+        </div>
+        <div id="route-list" class="panel-body">
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-md-6">
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Selected Routes</h3>
+        </div>
+        <div id="selected-route-list" class="panel-body">
+        </div>
+      </div>
+
+      <div class="panel">
+        <button type="button" id="update-button" class="btn btn-lg btn-primary">Update</button>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Transitive Preview</h3>
+        </div>
+        <div id="transitive-preview" class="panel-body">
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Transitive Data JSON</h3>
+        </div>
+        <div id="transitive-code" class="panel-body">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script src="build/build.js"></script>
+
+</body>
+</html>
